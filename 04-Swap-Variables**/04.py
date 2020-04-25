@@ -16,6 +16,8 @@ b=20
 
 print(a,b)
 
-a, b = b, a
+c=a
+a=b
+b=c
 
 print(a,b)
