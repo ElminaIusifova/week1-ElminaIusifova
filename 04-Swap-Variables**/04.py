@@ -16,8 +16,12 @@ b=20
 
 print(a,b)
 
+<<<<<<< HEAD
 c=a
 a=b
 b=c
+=======
+a, b = b, a
+>>>>>>> 6ee92e1fb9069982494997605dd79dddb4a0847e
 
 print(a,b)
